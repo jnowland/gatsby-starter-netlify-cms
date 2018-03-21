@@ -1,8 +1,7 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: product-page
 title: Our Coffee
-image: /img/jumbotron.jpg
+image: /img/products-grid1.jpg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -69,6 +68,8 @@ testimonials:
     quote: >-
       Kaldi is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.
+  - author: James
+    quote: This seems to handle repeating items
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
@@ -91,6 +92,11 @@ pricing:
         - Up to 4 different varieties of beans
       plan: Big
       price: '80'
+    - description: This is nothing
+      items:
+        - testing
+      plan: Big Plan
+      price: '10.00'
     - description: Want a few tiny batches from different varieties? Try our custom plan
       items:
         - Whatever you need
@@ -99,3 +105,4 @@ pricing:
       plan: Custom
       price: '??'
 ---
+
